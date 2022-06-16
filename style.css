@@ -1,3 +1,62 @@
+body {
+  background: black;
+  font-family: Roboto;
+}
+
 .container {
+  display: flex;
+  background-color: none;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  background-color: none;
+  flex-direction: column;
+  text-align: center;
+  min-width: 240px;
+  max-width: 240px;
+}
+
+.card-title {
+  padding: 10px;
+  background-color: violet;
+  /* font-size: 18px; */
+  border-radius: 12px 12px 0 0;
+  justify-content: center;
+  display: flex;
+}
+
+.card-label {
+  display: flex;
+  justify-content: space-around;
+  background: pink;
+  font-size: .6em;
+  padding-top: 10px;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: pink;
+  height: 35px;
+}
+
+.variacion {
+  font-size: 15px;
+}
+
+.card-footer {
+  font-size: 12px;
+  background-color: violet;
+  border-radius: 0 0 12px 12px;
+}
+
+.contenedor {
     display: flex;
+    background-color: white;
+    justify-content: center;
 }
