@@ -1,5 +1,5 @@
 body {
-  background: black;
+  background: #0f0e17;
   font-family: Roboto;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .card-title {
   padding: 10px;
-  background-color: violet;
+  background-color: #e53170;
   /* font-size: 18px; */
   border-radius: 12px 12px 0 0;
   justify-content: center;
@@ -31,7 +31,7 @@ body {
 .card-label {
   display: flex;
   justify-content: space-around;
-  background: pink;
+  background: #ff8906;
   font-size: .6em;
   padding-top: 10px;
 }
@@ -41,7 +41,7 @@ body {
   justify-content: space-around;
   font-size: 20px;
   font-weight: 900;
-  background-color: pink;
+  background-color: #ff8906;
   height: 35px;
 }
 
@@ -51,7 +51,7 @@ body {
 
 .card-footer {
   font-size: 12px;
-  background-color: violet;
+  background-color: #e53170;
   border-radius: 0 0 12px 12px;
 }
 
