@@ -60,3 +60,9 @@ body {
     background-color: white;
     justify-content: center;
 }
+
+.generar {
+    padding: 8px 16px;
+    margin: 150px auto;
+    display: block;
+}

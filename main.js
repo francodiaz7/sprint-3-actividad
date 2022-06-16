@@ -13,12 +13,7 @@ function traer(n, ndos) {
       titulo[n].innerText = `${data[ndos].casa.nombre}`;
       compra[n].innerText = `$ ${data[ndos].casa.compra}`;
       venta[n].innerText = `$ ${data[ndos].casa.venta}`;
-      variacion[n].innerText = `VARIACIÓN ${data[ndos].casa.variacion}`;
+      variacion[n].innerText = `VARIACIÓN ${data[ndos].casa.variacion}%`;
       actualizado[n].innerText = `ACTUALIZADO: ${new Date().toLocaleString()}`;
     });
 }
-
-traer(0);
-traer(1);
-traer(2, 3);
-traer(3, 4);
